@@ -1,6 +1,6 @@
 <template>
   <main
-    class="bg-gradient-to-b from-lime-200 to-indigo-950 px-[84px] pt-[40px] h-[100vh] overflow-y-auto"
+    class="bg-gradient-to-b from-lime-200 to-indigo-950 px-[36px] md:px-[84px] pt-[40px] h-[100vh] overflow-y-auto"
   >
     <section>
       <div
