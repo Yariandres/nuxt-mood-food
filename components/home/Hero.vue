@@ -1,9 +1,9 @@
 <template>
   <div
-    class="flex flex-col md:flex-row text-center md:text-left pl-[30px] pb-[62px] md:flex-row md:justify-between lg:gap-[128px]"
+    class="flex flex-col lg:flex-row pl-[30px] pb-[62px] md:justify-between lg:gap-[90px]"
   >
     <h1
-      class="text-[32px] md:text-[42px] lg:text-[62px] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-green-300 max-w-[419px]"
+      class="text-[42px] lg:text-[62px] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-green-300"
     >
       Food to Mood With MOOBO
     </h1>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between mt-[32px] px-[62px]">
+  <div class="flex justify-between mt-[32px] px-0 lg:px-[62px]">
     <div>
       <p class="text-center text-[42px] font-thin">5</p>
       <p class="capitalize">ingredients</p>
@@ -11,7 +11,7 @@
       viewBox="0 0 1 75"
       fill="none"
     >
-      <line x1="0.5" y1="0.145447" x2="0.499997" y2="75" stroke="black" />
+      <line x1="0.5" y1="0.145447" x2="0.499997" y2="75" stroke="#E5E7EB" />
     </svg>
     <div>
       <p class="text-center text-[42px] font-thin">50</p>
@@ -24,7 +24,7 @@
       viewBox="0 0 1 75"
       fill="none"
     >
-      <line x1="0.5" y1="0.145447" x2="0.499997" y2="75" stroke="black" />
+      <line x1="0.5" y1="0.145447" x2="0.499997" y2="75" stroke="#E5E7EB" />
     </svg>
     <div>
       <p class="text-center text-[42px] font-thin">450</p>
