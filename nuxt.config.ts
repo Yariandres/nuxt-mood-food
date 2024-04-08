@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', '@nuxt/image'],
+
   image: {
     dir: 'assets/images',
   },
@@ -20,6 +21,18 @@ export default defineNuxtConfig({
           href: 'https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap',
         },
       ],
+    },
+  },
+  runtimeConfig: {
+    openAIKey: process.env.OPENAI_KEY,
+    MONGO_URI: process.env.MONGO_URI,
+    TOKEN_SECRET: process.env.TOKEN_SECRET,
+    ACCESS_TOKEN: process.env.ACCESS_TOKEN,
+    ELASTIC_API: process.env.ELASTIC_API,
+    APP_URL: process.env.APP_URL,
+    EMAIL: process.env.EMAIL,
+    public: {
+      ELASTIC_URL: 'https://api.elasticemail.com/v4',
     },
   },
 });

@@ -5,7 +5,7 @@
         <div class="bg-[#fff] rounded-[8px] p-[22px]">
           <div class="flex flex-col gap-[16px]">
             <div
-              class="bg-[#D9D9D9] rounded-[25px] h-[34px] w-[77px] flex justify-center items-center"
+              class="bg-[#D9D9D9] rounded-[25px] h-[34px] max-w-[77px] flex justify-center items-center"
             >
               <p class=" ">ADS</p>
             </div>
